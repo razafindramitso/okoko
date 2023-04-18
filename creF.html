@@ -1,0 +1,52 @@
+<?php include('tete.php'); ?>
+<?php include('tronc.php'); ?>
+<div class="row">
+                    <div class="col-sm-12">
+                        <div class="card card-body">
+                            <h4 class="card-title">Ajoute de document</h4>
+                            <h6 class="card-subtitle"> classies </h6>
+                            <form class="form-horizontal m-t-40">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" value="Numero document">
+                                </div>
+                    
+                                <div class="form-group">
+                                    <label>Titre document</label>
+                                    <input type="text" class="form-control" placeholder="Titre">
+                                </div>
+                                <div class="form-group">
+                                    <label>Description</label>
+                                    <textarea class="form-control" rows="5"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label>Date de creation</label>
+                                    <input class="form-control" type="date" placeholder="date" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <label>Recepteur de document</label>
+                                    <select class="custom-select col-12" id="inlineFormCustomSelect">
+                                        <option selected>Choose...</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Document</label>
+                                    <input type="file" class="form-control" id="exampleInputFile" aria-describedby="fileHelp">
+                                </div>
+                               
+                                <div class="form-group">
+                                    <label>Helping text</label>
+                                    <input type="text" class="form-control" placeholder="Helping text">
+                                    <span class="help-block"><small>A block of help text that breaks onto a new line and may extend beyond one line.</small></span> </div>
+                                    <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+                                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+<?php include('pied.php'); ?>
